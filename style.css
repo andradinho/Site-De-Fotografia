@@ -3,7 +3,7 @@
     margin: 0px;
     text-decoration: none;
     list-style: none;
-    background-color: #F0F8FF;
+    background-color: #F0F8FF; /* tem que corrigir isso de pôr background collor em todos os elementos */
     box-sizing: border-box;
 }
 
@@ -124,7 +124,7 @@ nav ul li a{
 
 
 main{
-    margin-top: -20px;
+   margin-top: -20px; /* Precisa corrigir essa margem negativa  */
 }
 
 main p{
@@ -161,8 +161,26 @@ main .fotos article img{
 }
 
 footer{
+    border: solid 1px; /* coloquei a margem para ver onde estava o footer direitinho*/
     width: 100%;
-    height: 500px;
-    margin-top: 60px;
-    background-color: gray;
+    height: 8vh; /* defini um tamanho razoável para trazer uma ideia de mais "realidade" no footer */
+    margin-top: 20px;
 }
+.footer-content {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    flex: auto;
+}
+.footer-content p {
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+/* Acredito que você vá colocar mais info aqui no footer. então o ideal é primeiro
+ver o que você quer colocar pra depois ir customizando.
+Uma coisa que eu acho IDEAL é que você refatore TUDO.
+O melhor é você só zerar as margens e preenchimentos em todos os itens. Assim você
+tem mais controle e menos dor de cabeça na hora de ir manipulando cada trecho, entendeu?
+Se você quiser, posso te acompanhar pra ir te ajudar no que precisar.
+Abração! */
